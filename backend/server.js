@@ -31,7 +31,7 @@ cors({
 
 origin:[
     "http://localhost:5173",
-    "https://lifesaverai-three.vercel.app/"
+    "https://lifesaverai-three.vercel.app"
 ],
 
 
