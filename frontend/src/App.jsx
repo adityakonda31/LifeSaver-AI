@@ -16,7 +16,6 @@ import Register from "./pages/Register";
 
 import GoogleSuccess from "./pages/GoogleSuccess";
 
-import ForgotPassword from "./pages/ForgotPassword";
 
 import Dashboard from "./pages/Dashboard";
 
@@ -30,7 +29,6 @@ import Analytics from "./components/Analytics";
 
 import Settings from "./pages/Settings";
 
-import ResetPassword from "./pages/ResetPassword";
 
 
 
@@ -98,22 +96,7 @@ element={<Register/>}
 
 
 
-<Route
 
-path="/forgot-password"
-
-element={<ForgotPassword/>}
-
-/>
-
-
-<Route
-
-path="/reset-password"
-
-element={<ResetPassword/>}
-
-/>
 
 
 

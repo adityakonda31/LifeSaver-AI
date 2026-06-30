@@ -85,18 +85,6 @@ default:null
 
 
 
-phoneVerified:{
-
-
-type:Boolean,
-
-
-default:false
-
-
-},
-
-
 
 
 
@@ -172,35 +160,13 @@ default:null
 
 
 
-// FORGOT PASSWORD FEATURE
-
-
-resetPasswordOTP:{
-
-
-type:String,
-
-
-default:null
-
-
-},
 
 
 
 
 
 
-resetPasswordExpire:{
 
-
-type:Date,
-
-
-default:null
-
-
-},
 
 
 

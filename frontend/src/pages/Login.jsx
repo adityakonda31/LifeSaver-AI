@@ -126,7 +126,7 @@ const googleLogin=()=>{
 
 window.location.href =
 
-"http://localhost:5000/api/auth/google";
+import.meta.env.VITE_API_URO=L + "/api/auth/google";
 
 
 };
@@ -139,17 +139,6 @@ window.location.href =
 
 
 
-const forgotPassword=()=>{
-
-
-navigate(
-
-"/forgot-password"
-
-);
-
-
-};
 
 
 
@@ -551,7 +540,6 @@ mt-3
 <button
 
 
-onClick={forgotPassword}
 
 
 className="
