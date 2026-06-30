@@ -14,6 +14,7 @@ Sparkles
 
 
 
+
 function Login(){
 
 
@@ -121,24 +122,16 @@ setLoading(false);
 
 
 
+
 const googleLogin=()=>{
 
 
 window.location.href =
 
-import.meta.env.VITE_API_URO=L + "/api/auth/google";
+import.meta.env.VITE_API_URL + "/api/auth/google";
 
 
 };
-
-
-
-
-
-
-
-
-
 
 
 
@@ -287,7 +280,7 @@ mb-6
 
 <div className="
 
-bg-linear-to-r
+bg-gradient-to-r
 
 from-purple-600
 
@@ -326,7 +319,7 @@ font-black
 
 text-center
 
-bg-linear-to-r
+bg-gradient-to-r
 
 from-purple-400
 
@@ -433,7 +426,7 @@ w-full
 "
 
 
-onChange={e=>
+onChange={(e)=>
 
 setEmail(e.target.value)
 
@@ -501,7 +494,7 @@ w-full
 "
 
 
-onChange={e=>
+onChange={(e)=>
 
 setPassword(e.target.value)
 
@@ -537,9 +530,10 @@ mt-3
 ">
 
 
-<button
+<Link
 
 
+to="/forgot-password"
 
 
 className="
@@ -559,7 +553,7 @@ hover:underline
 Forgot Password?
 
 
-</button>
+</Link>
 
 
 
@@ -601,7 +595,7 @@ font-bold
 
 text-lg
 
-bg-linear-to-r
+bg-gradient-to-r
 
 from-purple-600
 
