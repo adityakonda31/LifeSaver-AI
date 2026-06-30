@@ -1,5 +1,7 @@
 import {useState} from "react";
 
+import {useNavigate} from "react-router-dom";
+
 import API from "../services/api";
 
 import DatePicker from "react-datepicker";
@@ -11,6 +13,9 @@ import "react-datepicker/dist/react-datepicker.css";
 
 
 function CreateTask(){
+
+
+const navigate = useNavigate();
 
 
 
@@ -110,7 +115,6 @@ task.phone
 null
 
 
-
 }
 
 );
@@ -129,11 +133,18 @@ response.data
 
 
 
-alert("Task Created");
+
+
+alert("Task Created 🚀");
 
 
 
-window.location.reload();
+
+
+// FIXED REDIRECT
+
+navigate("/dashboard");
+
 
 
 
@@ -152,6 +163,13 @@ err.response?.data || err.message
 
 );
 
+
+
+alert(
+
+"Task creation failed"
+
+);
 
 
 }
@@ -205,7 +223,7 @@ mb-8
 
 ">
 
-Create Task
+Create Task ✨
 
 </h2>
 
@@ -549,7 +567,7 @@ e.target.checked
 <span className="text-green-400 font-semibold">
 
 
-Send WhatsApp Reminder
+Send WhatsApp Reminder 📱
 
 
 </span>
@@ -732,7 +750,7 @@ className="
 
 mt-8
 
-bg-linear-to-r
+bg-gradient-to-r
 
 from-purple-600
 
@@ -750,6 +768,8 @@ hover:scale-105
 
 transition
 
+shadow-lg
+
 "
 
 
@@ -757,7 +777,7 @@ transition
 >
 
 
-Create Task
+Create Task 🚀
 
 
 </button>
