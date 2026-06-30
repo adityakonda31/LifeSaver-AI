@@ -85,9 +85,14 @@ data
 
 );
 
+localStorage.setItem(
+    "token"
+    res.data.token
+);
 
 
-navigate("/verify-phone");
+
+navigate("/dashboard");
 
 
 

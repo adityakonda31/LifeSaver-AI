@@ -13,7 +13,6 @@ import Login from "./pages/Login";
 
 import Register from "./pages/Register";
 
-import VerifyPhone from "./pages/VerifyPhone";
 
 import GoogleSuccess from "./pages/GoogleSuccess";
 
@@ -97,13 +96,6 @@ element={<Register/>}
 
 
 
-<Route
-
-path="/verify-phone"
-
-element={<VerifyPhone/>}
-
-/>
 
 
 <Route

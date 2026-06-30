@@ -296,14 +296,6 @@ require("./routes/authRoutes")
 
 // OTP
 
-app.use(
-
-"/api/otp",
-
-require("./routes/otpRoutes")
-
-);
-
 
 
 
